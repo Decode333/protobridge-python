@@ -1,0 +1,20 @@
+"D:\PycharmProjects\Learn ProITBridge\.venv\Scripts\python.exe" "D:\PycharmProjects\Learn ProITBridge\Python Programming\Chapter-6\Task-OOPS\main.py"
+========================================
+INITIAL BALANCE: 50000
+========================================
+
+=== UPI PAYMENT SUCCESS ===
+UPI ID : nithin@ybl
+Amount : ₹1000
+
+=== CARD PAYMENT SUCCESS ===
+Card Ending : 5678
+Amount      : ₹2000
+
+=== NET BANKING SUCCESS ===
+Bank   : HDFC Bank
+Amount : ₹3000
+
+Remaining Balance: 44000
+
+Process finished with exit code 0
