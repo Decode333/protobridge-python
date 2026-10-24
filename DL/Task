@@ -1,1 +1,45 @@
+Why DL?
+	- ML's prediction is limited and can only handle structured.
+	- With ML, the image classification, test analysis, speech recognitions etc cannot be performed.
 
+How DL?
+	- through the human way of learning like learning in batches, learning rate and repeated learning (epochs).
+	- this human way of learning intelligence is called Artificial Neural Network.
+	- the ANN cosists of I/P layer, hidden layers and O/P layer
+	- the data is fed into this ANN in the I/P layer and the O/P layer gives the prediction. -- this is called forward propagation.
+	- the difference in the output predicted and the actual is the error or loss.
+	- the model during the training phase, constantly updates the weights and biases of the hidden layer and the output layer.
+	- based on the loss calculated the weights are updated from output layer to hidden layers. -- this is called backward propagation.
+
+Building Blocks of ANN:
+	- Batches 
+		-> a data of 10000 will be splitted into small batches. 
+		-> in order to prevent the too much memory consumption by model for training.
+	- Epochs
+		-> number of iterations to be performed for learinig the data.
+		-> one iteration consits of 1 forward propagation + 1 backward propagation - applied on all the batches
+		-> example 10000 data. 100 batches. 1 epoch = 100FP + 100 BP
+		-> this also depends on the type of batching technique used.
+	- Activation functions
+		-> to introduce non-linearity in the neural network
+		-> enable the neuron/node to decide the information is relevant or not
+			|- Sigmoid
+			|- TanH
+			|- ReLU
+			|- Leaky ReLU
+			|- Softmax
+	- Loss functions
+		-> the difference between the predicted output and the actual output is calculated using different functions called loss functions.
+		-> the goal is to have the loss value minimum.
+	- optimizers
+		-> to reduce the loss, the model weights are updated in the backward propagation
+		-> during this optimization, the vanishing gradient and the exploding gradient problems occur.
+			|-- when the gradient (updates) are too small, the vanishing gradient problem occurs.
+			|-- the early layers get zero updates and stops learning
+			|-- when the gradient is very large, the exploding gradient occurs.
+			|-- happens due to poor weight initialization, and results in unstable learning of the model due to oscillating loss
+	- Learning Rate
+		-> a small positive value that controls how much the model weights are to be updated.
+		-> if rate is high, then the model will have fast learinig but will be unstable due to overshooting of optimal minimum
+	
+	
